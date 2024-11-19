@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
 });
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'Welcome to my Recipe Book!!',
+  description: 'This is a simple recipe book application. You can add edit, delete, and view your recipes.' });
 });
 /* GET About page. */
 router.get('/aboutus', function(req, res, next) {
