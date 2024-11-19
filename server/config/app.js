@@ -7,7 +7,7 @@ let logger = require('morgan');
 let app = express();
 let indexRouter = require('../routes/index');
 let usersRouter = require('../routes/users');
-let bookRouter = require('../routes/book');
+let recipeRouter = require('../routes/recipe');
 
 
 // view engine setup
@@ -25,12 +25,8 @@ mongoDB.once('open',()=>{
 });
 mongoose.connect(DB.URI,{useNewURIParser:true,useUnifiedTopology:true})
 /* main().catch(err => console.log(err));
-
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/BookLib');
-  //await mongoose.connect('mongodb+srv://ahmedsheikh:Test123@cluster0.0f3pz.mongodb.net/');
-
-  // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+  //await mongoose.connect('mongodb+srv://zainab1027:Laser123@cluster0.pjrsq.mongodb.net/Recipe');
 }*/
 
 app.use(logger('dev'));
@@ -42,7 +38,7 @@ app.use(express.static(path.join(__dirname, '../../node_modules')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/bookslist',bookRouter);
+app.use('/recipeslist',recipeRouter);
 // /project --> projectrouter
 // /contactus --> contactus
 
