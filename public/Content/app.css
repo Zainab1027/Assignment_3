@@ -22,3 +22,32 @@
     color: #f8d1cc !important;
     /* Creamy pink on hover */
 }
+
+/* Active Link */
+.custom-navbar .nav-link.active {
+    color: #f8d1cc !important;
+    /* Creamy pink for active link */
+    font-style: italic;
+    /* Optional: Differentiate active links further */
+}
+
+/* Navbar Brand */
+.custom-navbar .navbar-brand {
+    color: #fff !important;
+    /* White text for the brand */
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Smooth transition for hover */
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #f8d1cc !important;
+    /* Creamy pink on hover */
+}
+
+/* Navbar Toggler Icon */
+.custom-navbar .navbar-toggler {
+    border-color: #fff;
+    /* White border for toggler */
+}
