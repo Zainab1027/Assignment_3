@@ -87,6 +87,24 @@ footer .navbar h6:hover {
     color: #f8d1cc !important;
     /* Creamy pink on hover */
 }
+/* Home Page Styles */
+.home-page {
+    text-align: center;
+    /* Centers all content in this div */
+    margin: 20px auto;
+    /* Adds spacing around the main content */
+    padding: 20px;
+    /* Adds padding inside the container */
+    background-color: #f0cc9b;
+    /* White background for content */
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    width: 80%;
+    /* Adjusts width of the content */
+}
+
 
 /* Ensure Footer Stays at Bottom */
 footer {
