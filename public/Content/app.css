@@ -65,3 +65,30 @@ body {
     min-height: 100vh;
     /* Ensure footer is pushed down */
 }
+/* Footer Styling */
+footer .navbar {
+    background-color: #8c562f !important;
+    /* Dark brown background */
+    color: #fff !important;
+    /* White text */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer .navbar-text {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff !important;
+    /* White text */
+}
+
+footer .navbar h6:hover {
+    color: #f8d1cc !important;
+    /* Creamy pink on hover */
+}
+
+/* Ensure Footer Stays at Bottom */
+footer {
+    margin-top: auto;
+}
