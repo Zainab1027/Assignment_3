@@ -160,4 +160,58 @@ footer {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
     /* Darker shadow on hover */
 }
+/* Styling for Reduced Size Image */
+.me-image {
+    display: block;
+    /* Centers the image in its block */
+    margin: 20px auto;
+    /* Adds spacing and centers the image horizontally */
+    max-width: 30%;
+    /* Reduces the image to 30% of the container width */
+    height: auto;
+    /* Maintains the aspect ratio */
+    border-radius: 10px;
+    /* Adds slightly rounded corners */
+    border: 3px solid #8b4513;
+    /* Brown border to match theme */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Hover Effect for the Image */
+.home-image:hover {
+    transform: scale(1.05);
+    /* Slightly enlarges the image on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    /* Enhances shadow on hover */
+}
+
+.me-page {
+    text-align: center;
+    /* Centers all content in this div */
+    margin: 20px auto;
+    /* Adds spacing around the main content */
+    padding: 20px;
+    /* Adds padding inside the container */
+    background-color: #ef92b7;
+    /* White background for content */
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    width: 80%;
+    /* Adjusts width of the content */
+}
+
+/* Description Styling */
+.me-description {
+    color: #000000;
+    /* Dark brown text */
+    font-size: 1.2rem;
+    /* Medium-sized font */
+    line-height: 1.6;
+    /* Adds line spacing for readability */
+}
 
