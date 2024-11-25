@@ -1,5 +1,5 @@
-<%- include('Partials/header') %>
-<%- include('Partials/main_nav') %>
+<%- include('./Partials/header.ejs') %>
+<%- include('./Partials/main_nav.ejs') %>
 <div class="container">
     <h1><%= message || "An error occurred" %></h1>
     <h2><%= error?.status || 500 %></h2>
