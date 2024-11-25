@@ -1,22 +1,30 @@
 {
-  "name": "crudproject",
-  "version": "1.0.0",
-  "description": "This is assignment 3",
-  "main": "server.js",
+  "name": "infrproject",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zainab1027/Assignment_3.git"
-  },
-  "author": "Zainab Syed",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zainab1027/Assignment_3/issues"
-  },
-  "homepage": "https://github.com/Zainab1027/Assignment_3#readme",
   "dependencies": {
-    "debug": "^4.3.7"
-  }
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "morgan": "~1.9.1"
+  },
+  "description": "this is assignment 3",
+  "main": "server.js",
+  "author": "Zainab",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": []
 }
