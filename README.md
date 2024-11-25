@@ -3,6 +3,9 @@
 ## Project Overview
 This project is a **Recipe Management Application** built with **ExpressJS**. It allows users to manage recipes through CRUD operations (Create, Read, Update, Delete). The application is styled using **custom CSS** and **Bootstrap** to give it a clean, professional look and feel. The goal of this application is to provide a user-friendly interface for managing recipe data efficiently.
 
+## link to my word doc of project plan:
+https://1drv.ms/w/c/78d015aeef614e89/EbIJD9gE_fFMtKikVJ7C50wBZZd2yPEIF9WgQRlotKrpdg?e=rtd9I0
+
 ## Features and Application Requirements
 ### 1. Project Plan
 - **Idea**: A Recipe Management Application for users to store, view, and manage their favorite recipes.
