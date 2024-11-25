@@ -1,4 +1,9 @@
 /* Navbar Styling */
+
+.container {
+     margin-top: -20px; /* Adjust this value to move the button upwards */
+    margin-bottom: 20px; /* Optional: Adjust spacing below the container */
+}
 .custom-navbar {
     background-color: #8c562f;
     /* Brown background */
@@ -22,7 +27,76 @@
     color: #f8d1cc !important;
     /* Creamy pink on hover */
 }
+/* Submit and cancel buttons styling */
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
 
+.btn-primary {
+    background-color: #3a2306;
+    /* Primary button color */
+    color: white;
+    border: none;
+}
+
+/* Styling for the row to keep content aligned */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the form title */
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    /* color for the title */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form field styling */
+.form {
+    margin: 0 auto;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #332110;
+    /* Dark text color for labels */
+    font-size: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 30px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #af874c;
+    /* Highlighted border on focus */
+    box-shadow: 0 0 5px rgb(66, 47, 34);
+    outline: none;
+}
+
+
+.btn-primary:hover {
+    background-color: #1f0524;
+    /* Slightly darker on hover */
+}
 /* Active Link */
 .custom-navbar .nav-link.active {
     color: #f8d1cc !important;
@@ -51,6 +125,7 @@
     border-color: #fff;
     /* White border for toggler */
 }
+
 /* Body Styling (Page Background) */
 body {
     margin: 0;
@@ -65,6 +140,7 @@ body {
     min-height: 100vh;
     /* Ensure footer is pushed down */
 }
+
 /* Footer Styling */
 footer .navbar {
     background-color: #8c562f !important;
@@ -87,6 +163,12 @@ footer .navbar h6:hover {
     color: #f8d1cc !important;
     /* Creamy pink on hover */
 }
+
+/* Ensure Footer Stays at Bottom */
+footer {
+    margin-top: auto;
+}
+
 /* Home Page Styles */
 .home-page {
     text-align: center;
@@ -103,12 +185,6 @@ footer .navbar h6:hover {
     /* Subtle shadow effect */
     width: 80%;
     /* Adjusts width of the content */
-}
-
-
-/* Ensure Footer Stays at Bottom */
-footer {
-    margin-top: auto;
 }
 
 /* Title Styling */
@@ -160,6 +236,7 @@ footer {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
     /* Darker shadow on hover */
 }
+
 /* Styling for Reduced Size Image */
 .me-image {
     display: block;
@@ -214,4 +291,3 @@ footer {
     line-height: 1.6;
     /* Adds line spacing for readability */
 }
-
